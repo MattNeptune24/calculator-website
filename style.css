@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    line-height: normal;
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    font-size: large;
+    height: 100px;
+    width: 100%;
+}
