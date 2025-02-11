@@ -88,3 +88,28 @@ function calculate3(){
         document.getElementById("Answer").textContent = " x = " + (number2 * number3)/number1;
     }
 }
+
+function calculate4(){
+    var number1 = parseFloat(document.getElementById("Number1").value);
+    var number2 = parseFloat(document.getElementById("Number2").value);
+    var number3 = parseFloat(document.getElementById("Number3").value);
+    var number4 = parseFloat(document.getElementById("Number4").value);
+    var type = parseFloat(document.getElementById("Type").value);
+
+    if(type==1){
+        document.getElementById("Display").textContent = "Equation : " + number1 + " / " + number2 + " + " + number3 + " / " + number4 + " = x, ";
+        document.getElementById("Answer").textContent = " x = " + ((number1 * number4) + (number3 * number2)) + " / " + (number2 * number4);
+    }
+    if(type==2){
+        document.getElementById("Display").textContent = "Equation : " + number1 + " / " + number2 + " - " + number3 + " / " + number4 + " = x, ";
+        document.getElementById("Answer").textContent = " x = " + ((number1 * number4) - (number3 * number2)) + " / " + (number2 * number4);
+    }
+    if(type==3){
+        document.getElementById("Display").textContent = "Equation : " + number1 + " / " + number2 + " * " + number3 + " / " + number4 + " = x, ";
+        document.getElementById("Answer").textContent = " x = " + (number1 * number3) + " / " + (number2 * number4);
+    }
+    if(type==4){
+        document.getElementById("Display").textContent = "Equation : " + number1 + " / " + number2 + " / " + number3 + " / " + number4 + " = x, ";
+        document.getElementById("Answer").textContent = " x = " + (number1 * number4) + " / " + (number2 * number3);
+    }
+}
