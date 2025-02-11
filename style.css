@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    line-height: normal;
+    color:var(--base-color);
+    background-color: var(--background-color);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    font-size: large;
+    height: 120px;
+    width: 100%;
+}
+
+:root {
+    --base-color: rgb(0, 0, 0);
+    --background-color: rgb(255, 255, 255);
+}
+
+.darkmode {
+    --base-color: rgb(255,255,255);
+    --background-color: rgb(50, 50, 50);
+}
+
+#theme {
+    position: fixed;
+    right: 20px;
+}
