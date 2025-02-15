@@ -15,8 +15,8 @@
 }
 
 :root {
-    --base-color: rgb(0, 0, 0);
-    --background-color: rgb(255, 255, 255);
+    --base-color: rgb(255, 255, 255);
+    --background-color: rgb(50, 50, 50);
 }
 
 .darkmode {
