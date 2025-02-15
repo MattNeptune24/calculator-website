@@ -113,3 +113,10 @@ function calculate4(){
         document.getElementById("Answer").textContent = " x = " + (number1 * number4) + " / " + (number2 * number3);
     }
 }
+
+function calculate5(){
+    var number1 = parseFloat(document.getElementById("Number1").value);
+        document.getElementById("Display").textContent = "Equation : " + number1 + " Squared = x, ";
+        document.getElementById("Answer").textContent = " x = " + Math.sqrt(number1);
+}
+
