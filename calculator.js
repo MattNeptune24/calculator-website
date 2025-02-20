@@ -148,3 +148,10 @@ function calculate6(){
         document.getElementById("Answer").textContent = " x = " + (number1+number2+number3+number4+number5)/5;
     }
 }
+
+function calculate7(){
+    var number1 = parseFloat(document.getElementById("Number1").value);
+    var number2 = parseFloat(document.getElementById("Number2").value);
+    document.getElementById("Display").textContent = "Equation : " + number1 + " To the power of " + number2 + " = x, ";
+    document.getElementById("Answer").textContent = " x = " + (number1**number2);
+}
