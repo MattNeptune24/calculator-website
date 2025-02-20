@@ -155,3 +155,9 @@ function calculate7(){
     document.getElementById("Display").textContent = "Equation : " + number1 + " To the power of " + number2 + " = x, ";
     document.getElementById("Answer").textContent = " x = " + (number1**number2);
 }
+
+function calculate8(){
+    var number1 = parseFloat(document.getElementById("Number1").value);
+    document.getElementById("Display").textContent = "Equation : " + "Circumference of a circle with the radius of " + number1 + " = x, ";
+    document.getElementById("Answer").textContent = " x = " + ((2*3.14159)*number1);
+}
