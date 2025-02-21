@@ -168,11 +168,11 @@ function calculate9(){
     var type = parseFloat(document.getElementById("Type").value);
     if(type==1){
         document.getElementById("Display").textContent = "Equation : " + number1 + "% = x, ";
-        document.getElementById("Answer").textContent = "x = " + number1/100 + ", or " + number1 + " / 100";
+        document.getElementById("Answer").textContent = "x = " + number1/100 + ", or " + (number1/100)*number2 + " / " + number2;
     }
     if(type==2){
         document.getElementById("Display").textContent = "Equation : " + number1 + " = x, ";
-        document.getElementById("Answer").textContent = "x = " + number1*100 + "%" + ", or " + number1*100 + " / 100";
+        document.getElementById("Answer").textContent = "x = " + number1*100 + "%" + ", or " + number1*number2 + " / " + number2;
     }
     if(type==3){
         document.getElementById("Display").textContent = "Equation : " + number1 + " / " + number2 + " = x,";
