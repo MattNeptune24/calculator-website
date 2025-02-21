@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style2.css" />
+        <script src="calculator.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/calculator-website/index.html" id="navbar__logo">Simple Calculator - Percentage Calculator</a>
+                <div class="navbar__toggle menu" id="mobile">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <label for="fname">Percent/Decimal/Numerator 1 : </label>
+        <input type="number" id="Number1"><br>
+
+        <label for="fname">Denominator 2 : </label>
+        <input type="number" id="Number2"><br>
+
+        <label for="fname">Type (1-3) : </label>
+        <input type="number" id="Type"><br>
+
+        <footer>
+            <label>Key (Type) : 1 = "Percent", 2 = "Decimal", 3 = "Fraction"</label>
+            <footer>
+                <footer>
+                    <label id="Display"></label></label>
+                    <label id="Answer"></label>
+                </footer>
+                <button onclick="calculate9()">Calculate</button>
+            </footer>
+        </footer>
+    </body>
+</html>
