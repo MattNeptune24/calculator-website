@@ -6,6 +6,7 @@
     background-color: var(--background-color);
     font-family: sans-serif;
     font-weight: 700;
+    line-height: 25px;
 }
 
 .navbar {
